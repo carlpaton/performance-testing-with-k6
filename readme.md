@@ -42,6 +42,7 @@ Parameters
       - "./tests:/tests"
     environment:
       - K6_OUT=influxdb=http://influxdb:8086/k6
+      - STATUS_PERCENTAGE=0.9
     command: "version"
 ```
 
